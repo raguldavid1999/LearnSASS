@@ -2,7 +2,7 @@
 
 $f : flex;
 @mixin flexCenter($justify){
-    display: flex;
+    display: $f;
     justify-content: $justify;
     align-items: center;
 }
