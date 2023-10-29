@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+}
+
+.main-div, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div p, p p {
+  color: lightblue;
+}
+.main-div p:hover, p p:hover {
+  color: lightgreen;
+}/*# sourceMappingURL=style.css.map */
